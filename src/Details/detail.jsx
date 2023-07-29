@@ -1,7 +1,7 @@
 import "./detail.scss"
 // images
 import Roboicon from "../Details/Detailimages/roboicon.png"
-import Humanicon from "../Details/Detailimages/Humanicon.png"
+import Humanicon from "../Details/Detailimages/humanicon.png"
 import map from "../Details/Detailimages/map.png"
 
 import React, { useRef, useState } from 'react';
