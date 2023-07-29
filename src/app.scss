@@ -1,0 +1,28 @@
+* {
+    margin         : 0px;
+    padding        : 0px;
+    scroll-behavior: smooth;
+    box-sizing     : border-box;
+}
+
+a {
+    font-weight    : 500;
+    color          : #FFFFFF;
+    text-decoration: inherit;
+}
+
+a:hover {
+    color: rgb(128, 128, 206);
+}
+
+body {
+    background     : url("Details/Detailimages/backgroundimg.png")no-repeat;
+    background-size: 100% 80vh !important;
+    display        : flex;
+    justify-content: center;
+    margin         : 0;
+    min-width      : 320px;
+    min-height     : 100vh;
+    color          : #FFFFFF;
+    scroll-behavior: smooth;
+}

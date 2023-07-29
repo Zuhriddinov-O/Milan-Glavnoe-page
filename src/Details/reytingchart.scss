@@ -1,0 +1,26 @@
+.reyting2 {
+    display: flex;
+    flex-direction: column;
+    width : 80%;
+    padding-left: 60px;
+    padding-top: 40px;
+}
+
+.reytingchart__p {
+    display        : flex;
+    justify-content: center;
+    align-items    : flex-start;
+    width          : 70%;
+    height         : 41px;
+    top            : 1656px;
+    left           : 150px;
+    font-family    : Raleway;
+    font-size      : 18px;
+    font-weight    : 500;
+    line-height    : 21px;
+    letter-spacing : 0.015em;
+    text-align     : left;
+}
+.reytingchart__p{
+    color: black;
+}

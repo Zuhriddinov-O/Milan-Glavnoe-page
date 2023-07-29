@@ -1,0 +1,782 @@
+.detail-container {
+    width : 210.5vh;
+    height: 500vh;
+
+    &__page1 {
+        display       : flex;
+        flex-direction: column;
+        height        : 79.5vh;
+    }
+
+    .page1__navbar1 {
+        display    : flex;
+        align-items: center;
+        width      : 100%;
+        height     : 15vh;
+    }
+
+    .navbar1init1 {
+        display     : flex;
+        align-items : center;
+        width       : 50%;
+        padding-left: 20px;
+    }
+
+    .navbar1init1__roboicon {
+        display     : flex;
+        width       : 34px;
+        height      : 34px;
+        margin-right: 10px;
+    }
+
+    .navbar1init1__educationP {
+        font-size  : 16px;
+        font-family: Raleway;
+    }
+
+    .navbar1init2 {
+        display        : flex;
+        align-items    : center;
+        justify-content: flex-end;
+        width          : 50%;
+        padding-left   : 20px;
+    }
+
+    .navbar1init2__nameP {
+        font-size  : 16px;
+        font-family: Raleway;
+        margin-left: 5px;
+    }
+
+    .navbar1init2__nameP2 {
+        font-size   : 16px;
+        font-family : Raleway;
+        margin-left : 5px;
+        margin-right: 20px;
+    }
+
+    .page1-lastcontainer {
+        height     : 70%;
+        display    : flex;
+        align-items: end;
+    }
+
+    .univerMilan {
+        display        : flex;
+        justify-content: center;
+        width          : 50%;
+    }
+
+    .univerMilan__p {
+        font-family   : Raleway;
+        font-size     : 40px;
+        font-weight   : 500;
+        line-height   : 47px;
+        letter-spacing: 0em;
+
+    }
+
+    .podat-Button {
+        display        : flex;
+        justify-content: end;
+        width          : 50%;
+    }
+
+    .podat-Button__btn {
+        width        : 187px;
+        height       : 74px;
+        border-radius: 9px;
+        margin-right : 100px;
+        background   : none;
+
+        font-family   : Raleway;
+        font-size     : 26px;
+        font-weight   : 500;
+        line-height   : 31px;
+        letter-spacing: 0em;
+        color         : #ffffff;
+        border-color  : #ffffff;
+    }
+
+    &__navbar2 {
+        display        : flex;
+        justify-content: space-around;
+        align-items    : center;
+        height         : 15vh;
+        background     : #000D7F;
+    }
+
+    .Описание {
+        font-family   : Raleway;
+        font-size     : 28px;
+        font-weight   : 600;
+        line-height   : 33px;
+        letter-spacing: 0em;
+    }
+
+    .Локация {
+        font-family   : Raleway;
+        font-size     : 28px;
+        font-weight   : 600;
+        line-height   : 33px;
+        letter-spacing: 0em;
+    }
+
+    .Поступление {
+        font-family   : Raleway;
+        font-size     : 28px;
+        font-weight   : 600;
+        line-height   : 33px;
+        letter-spacing: 0em;
+    }
+
+    .Галерея {
+        font-family   : Raleway;
+        font-size     : 28px;
+        font-weight   : 600;
+        line-height   : 33px;
+        letter-spacing: 0em;
+    }
+
+    &__page2 {
+        display       : flex;
+        flex-direction: column;
+    }
+
+    .page2__container1 {
+        display: flex;
+        height : 167vh;
+    }
+
+
+    .tablevsrechart {
+        width: 36% !important;
+    }
+
+    .table {
+        display        : flex;
+        justify-content: center;
+        margin-top     : 40px;
+        margin-left    : 40px;
+        width          : 80%;
+        height         : 40%;
+        border         : 2px solid #949CB8;
+        color          : #000D7F;
+        border-radius  : 10px;
+    }
+
+    .tableinit1 {
+        display       : flex;
+        flex-direction: column;
+        width         : 50%;
+    }
+
+    .table__Рейтинг {
+        display      : flex;
+        align-items  : center;
+        height       : 11.7vh;
+        border-bottom: 2px solid #949CB8;
+        border-right : 2px solid #949CB8;
+        padding-left : 5%;
+
+        font-family: Raleway;
+        font-size  : 24px;
+        font-weight: 500;
+        color      : black;
+    }
+
+    .table__Страна {
+        display      : flex;
+        align-items  : center;
+        height       : 11.7vh;
+        border-bottom: 2px solid #949CB8;
+        border-right : 2px solid #949CB8;
+        padding-left : 5%;
+
+        font-family: Raleway;
+        font-size  : 24px;
+        font-weight: 500;
+        color      : black;
+    }
+
+    .table__Город {
+        display      : flex;
+        align-items  : center;
+        height       : 11.7vh;
+        border-bottom: 2px solid #949CB8;
+        border-right : 2px solid #949CB8;
+        padding-left : 5%;
+
+        font-family: Raleway;
+        font-size  : 24px;
+        font-weight: 500;
+        color      : black;
+    }
+
+    .table__Бакалавриат {
+        display      : flex;
+        align-items  : center;
+        height       : 11.7vh;
+        border-bottom: 2px solid #949CB8;
+        border-right : 2px solid #949CB8;
+        padding-left : 5%;
+
+        font-family: Raleway;
+        font-size  : 24px;
+        font-weight: 500;
+        color      : black;
+    }
+
+    .table__Магистратура {
+        display      : flex;
+        align-items  : center;
+        height       : 11.7vh;
+        border-bottom: 2px solid #949CB8;
+        border-right : 2px solid #949CB8;
+        padding-left : 5%;
+
+        font-family: Raleway;
+        font-size  : 24px;
+        font-weight: 500;
+        color      : black;
+    }
+
+    .table__Цена {
+        display     : flex;
+        align-items : center;
+        height      : 11.7vh;
+        border-right: 2px solid #949CB8;
+        padding-left: 5%;
+
+        font-family: Raleway;
+        font-size  : 24px;
+        font-weight: 500;
+        color      : black;
+    }
+
+    .tableinit2 {
+        display       : flex;
+        flex-direction: column;
+        width         : 50%;
+    }
+
+    .table__235 {
+        display      : flex;
+        align-items  : center;
+        padding-left : 5%;
+        height       : 11.7vh;
+        border-bottom: 2px solid #949CB8;
+
+        font-family   : sans-serif;
+        font-size     : 26px;
+        font-weight   : 500;
+        line-height   : 30px;
+        letter-spacing: 0em;
+        text-align    : left;
+        color         : black;
+    }
+
+    .table__Италия {
+        display      : flex;
+        align-items  : center;
+        padding-left : 5%;
+        height       : 11.7vh;
+        border-bottom: 2px solid #949CB8;
+
+        font-family   : sans-serif;
+        font-size     : 26px;
+        font-weight   : 500;
+        line-height   : 30px;
+        letter-spacing: 0em;
+        text-align    : left;
+        color         : black;
+    }
+
+    .table__Милан {
+        display      : flex;
+        align-items  : center;
+        padding-left : 5%;
+        height       : 11.7vh;
+        border-bottom: 2px solid #949CB8;
+
+        font-family   : sans-serif;
+        font-size     : 26px;
+        font-weight   : 500;
+        line-height   : 30px;
+        letter-spacing: 0em;
+        text-align    : left;
+        color         : black;
+    }
+
+    .table__год {
+        display      : flex;
+        align-items  : center;
+        padding-left : 5%;
+        height       : 11.7vh;
+        border-bottom: 2px solid #949CB8;
+
+        font-family   : sans-serif;
+        font-size     : 26px;
+        font-weight   : 500;
+        line-height   : 30px;
+        letter-spacing: 0em;
+        text-align    : left;
+        color         : black;
+    }
+
+    .table__год2 {
+        display     : flex;
+        align-items : center;
+        padding-left: 5%;
+        height      : 11.7vh;
+
+        font-family   : sans-serif;
+        font-size     : 26px;
+        font-weight   : 500;
+        line-height   : 30px;
+        letter-spacing: 0em;
+        text-align    : left;
+        color         : black;
+    }
+
+    .mapimg {
+        margin-top : 30px;
+        margin-left: 30px;
+    }
+
+    .information {
+        padding-top : 40px;
+        padding-left: 30px;
+        width       : 60%;
+    }
+
+    .information__p1 {
+        font-family   : Raleway;
+        font-weight   : 500;
+        line-height   : 43px;
+        letter-spacing: 0.015em;
+        font-size     : 26px;
+        color         : #000000;
+    }
+
+    .information__p2 {
+        font-family   : Raleway;
+        font-size     : 26px;
+        font-weight   : 400;
+        line-height   : 43px;
+        letter-spacing: 0.015em;
+        color         : #000000;
+    }
+
+    .information1__modal {
+        display    : flex;
+        align-items: flex-start;
+        height     : 120vh;
+    }
+
+    .modal {
+        // margin-left: -49%;
+        margin-top: -43% !important;
+        transform : translate(50%, 0%) scale(0);
+        transition: 0.7s linear;
+        color     : #000000;
+
+        width         : 115vh;
+        font-family   : Raleway;
+        font-size     : 26px;
+        font-weight   : 400;
+        line-height   : 43px;
+        letter-spacing: 0.015em;
+
+
+    }
+
+    .modalbtn {
+        position     : absolute;
+        width        : 55px;
+        height       : 55px;
+        border-radius: 9px;
+        border       : none;
+        background   : #A6AED9;
+        margin-top   : -36vh;
+        margin-left  : 770px;
+    }
+
+    .modal_open {
+        transform: translate(0%, 50%) scale(1);
+
+    }
+
+    .modal_close {
+        transform: translate(50%, 50%) scale(1);
+    }
+
+    .page2__container2 {
+        display        : flex;
+        justify-content: space-between;
+        align-items    : center;
+    }
+
+    .fakulteti {
+        width: 100%;
+    }
+
+    .fakulteti__p {
+        font-family   : Raleway;
+        font-size     : 30px;
+        font-weight   : 600;
+        line-height   : 35px;
+        letter-spacing: 0em;
+        text-align    : left;
+        color         : #000;
+    }
+
+    .fakulteti__li {
+        font-family   : Raleway;
+        font-size     : 26px;
+        font-weight   : 500;
+        line-height   : 44px;
+        letter-spacing: 0.015em;
+        text-align    : left;
+        color         : #000;
+    }
+
+    .page2__container3 {
+        padding-left: 30px;
+        height      : 40vh;
+        color       : black;
+    }
+
+    .Процесс {
+        font-family   : Raleway;
+        font-size     : 30px;
+        font-weight   : 600;
+        line-height   : 35px;
+        letter-spacing: 0em;
+        text-align    : left;
+    }
+
+    .Полное {
+        margin-top    : 20px;
+        font-family   : Raleway;
+        font-size     : 26px;
+        font-weight   : 400;
+        line-height   : 43px;
+        letter-spacing: 0.015em;
+        text-align    : left;
+    }
+
+    .Специалисты {
+        margin-top    : 20px;
+        font-family   : Raleway;
+        font-size     : 28px;
+        font-weight   : 600;
+        line-height   : 47px;
+        letter-spacing: 0.015em;
+    }
+
+    .agency {
+        padding-left: 30px;
+        color       : #000;
+    }
+
+    .agency__li {
+        font-family   : Raleway;
+        font-size     : 26px;
+        font-weight   : 500;
+        line-height   : 55px;
+        letter-spacing: 0em;
+        text-align    : left;
+
+    }
+
+    .dokumenti {
+        display        : flex;
+        justify-content: center;
+        align-items    : end;
+        width          : 100%;
+        height         : 100px;
+    }
+
+    .dokumenti__btn {
+        width        : 247px;
+        height       : 63px;
+        background   : #000D7F;
+        border-radius: 10px;
+        font-family  : 'Raleway';
+        font-style   : normal;
+        font-weight  : 600;
+        font-size    : 20px;
+        line-height  : 23px;
+        color        : #FFFFFF;
+    }
+
+    .dokumenti__btn:active {
+        box-shadow   : 0px 0px 0px 1px #737bbf;
+        width        : 247px;
+        height       : 63px;
+        background   : #000D7F;
+        border-radius: 10px;
+        font-family  : 'Raleway';
+        font-style   : normal;
+        font-weight  : 600;
+        font-size    : 20px;
+        line-height  : 23px;
+        color        : #FFFFFF;
+    }
+
+    #mySwiper {
+        display        : flex;
+        justify-content: center !important;
+        align-items    : center;
+        width          : 100%;
+        margin         : 50px 0px 50px 0px;
+    }
+
+    .swiper-container {
+        display        : flex;
+        justify-content: space-around;
+        align-items    : center;
+    }
+
+    .slideimages {
+        border-radius: 5px;
+        width        : 385px;
+        height       : 231px;
+        border-radius: 12px;
+    }
+
+    .lastfooter {
+        display   : flex;
+        width     : 100%;
+        height    : 753px;
+        background: #000D7F;
+    }
+
+    .lastfooterinit1 {
+        display       : flex;
+        flex-direction: column;
+        padding-left  : 60px;
+        width         : 33%;
+        font-family   : Raleway;
+    }
+
+    .education {
+        margin-top : 54px;
+        font-family: Raleway;
+        font-weight: 700;
+        font-size  : 26px;
+        line-height: 31px;
+        color      : #FFFFFF;
+    }
+
+    .address__p {
+        margin-top : 35px;
+        font-weight: 500;
+        font-size  : 24px;
+        line-height: 28px;
+        color      : #FFFFFF;
+    }
+
+    .address__h4 {
+        margin-top : 10px;
+        font-weight: 600;
+        font-size  : 24px;
+        line-height: 28px;
+        color      : #FFFFFF;
+    }
+
+    .pochta__p {
+        margin-top : 35px;
+        height     : 28px;
+        font-weight: 500;
+        font-size  : 24px;
+        line-height: 28px;
+        color      : #FFFFFF;
+    }
+
+    .pochta__h4 {
+        margin-top : 10px;
+        font-weight: 600;
+        font-size  : 24px;
+        line-height: 28px;
+        color      : #FFFFFF;
+    }
+
+    .number__p {
+        margin-top : 35px;
+        font-weight: 500;
+        font-size  : 24px;
+        line-height: 28px;
+        color      : #FFFFFF;
+    }
+
+    .number__h4 {
+        margin-top : 10px;
+        font-weight: 500;
+        font-size  : 24px;
+        line-height: 28px;
+        color      : #FFFFFF;
+    }
+
+    .worktime__p {
+        margin-top : 35px;
+        font-weight: 500;
+        font-size  : 24px;
+        line-height: 28px;
+        color      : #FFFFFF;
+    }
+
+    .worktime__h4 {
+        margin-top : 10px;
+        font-weight: 500;
+        font-size  : 24px;
+        line-height: 28px;
+        color      : #FFFFFF;
+    }
+
+    .lastfooterinit2 {
+        padding-left: 40px;
+        width       : 33%;
+        font-family : Raleway;
+    }
+
+    .onas {
+        margin-top : 50px;
+        font-weight: 500;
+        font-size  : 24px;
+        line-height: 28px;
+        color      : #FFFFFF;
+    }
+
+    .eduget {
+        margin-top : 35px;
+        font-family: fangsong;
+        font-weight: 400;
+        font-size  : 24px;
+        line-height: 133.7%;
+        color      : #FFFFFF;
+    }
+
+    .granits {
+        font-family: fangsong;
+        margin-top : 25px;
+        font-weight: 400;
+        font-size  : 24px;
+        line-height: 133.7%;
+        color      : #FFFFFF;
+
+    }
+
+    .ending {
+        font-family    : cursive;
+        display        : flex;
+        justify-content: center;
+        margin-top     : 44px;
+    }
+
+    .lastfooterinit3 {
+        padding-left: 40px;
+        width       : 33%;
+        font-family : Raleway;
+    }
+
+    .novosti {
+        margin-top : 50px;
+        font-weight: 100;
+        font-size  : 24px;
+        line-height: 28px;
+        color      : #FFFFFF;
+    }
+
+    .potpishites {
+        margin-top : 35px;
+        font-weight: 400;
+        font-size  : 24px;
+        line-height: 28px;
+        color      : #FFFFFF;
+    }
+
+    .emailbtn {
+        color: #FFFFFF;
+    }
+
+    .emailbtn input {
+        margin-top   : 35px;
+        padding-left : 22px;
+        display      : flex;
+        align-items  : center;
+        box-sizing   : border-box;
+        font-size    : 20px;
+        width        : 394px;
+        height       : 85px;
+        border       : 1.5px solid #FFFFFF;
+        border-radius: 12px;
+        background   : none;
+        color        : #FFFFFF;
+    }
+
+    input::placeholder {
+        font-weight   : 400;
+        font-size     : 20px;
+        line-height   : 23px;
+        letter-spacing: 0.02em;
+        color         : #FFFFFF;
+    }
+
+    .emailbtn input:hover {
+        box-shadow: inset 0px 0px 0px 1px rgb(255, 255, 255);
+        border    : 1.5px solid #FFFFFF;
+    }
+
+    .potpisatsiyabtn {
+        margin-top     : 24px;
+        display        : flex;
+        justify-content: center;
+        align-items    : center;
+        box-sizing     : border-box;
+        width          : 394px;
+        height         : 88px;
+        background     : #E2F1F8;
+        border-radius  : 12px;
+    }
+
+    .potpisatsiyabtn:active {
+        box-shadow: inset 0px 0px 0px 2px blue;
+    }
+
+    .potpisatsiyabtn p {
+        font-weight: 500;
+        font-size  : 28px;
+        line-height: 33px;
+    }
+
+    .politika {
+        margin-top     : 58px;
+        display        : flex;
+        justify-content: center;
+        font-family    : "railway";
+        font-weight    : 700;
+        font-size      : 24px;
+        line-height    : 28px;
+        color          : #FFFFFF;
+    }
+
+    .footericons {
+        display        : flex;
+        margin-top     : 42px;
+        align-items    : center;
+        justify-content: center;
+        height         : 35px;
+    }
+
+    .footericons img:hover {
+        box-shadow: 0px 1px 0px 0px #ffffff;
+    }
+
+    .instagramicon {
+        margin: 38px;
+    }
+
+
+}
